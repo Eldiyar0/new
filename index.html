@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Квитанция Mbank</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<div class="createP">
+			<input class="name" type="text" placeholder="name" />
+			<input class="price" type="text" placeholder="price" />
+			<input class="numberIn" type="text" placeholder="number" />
+			<button class="create">create</button>
+		</div>
+		<div class="container">
+			<div class="header">
+				<img
+					src="./img/Снимок экрана 2024-06-20 в 11.41.09.png"
+					alt="Bank Logo"
+				/>
+			</div>
+			<div class="block">
+				<hr class="hr" />
+				<div class="details">
+					<div class="label2">Детали операции:</div>
+					<div class="value">
+						Перевод по номеру телефона. <br />
+						<span style="color: #555555f0">
+							996<span class="number">501906987</span> /
+						</span>
+						<span class="newName">Бактияр С</span>.// <br />
+						Сумма <span class="newPrice">400</span> KGS
+					</div>
+				</div>
+				<div class="date">
+					<div style="font-weight: 300" class="label1">Дата и время:</div>
+					<div class="value"><span class="newDate">12.06.2024 18:27</span></div>
+				</div>
+				<hr class="hr" />
+				<div class="total">
+					<div style="font-weight: 600" class="label">Итого</div>
+					<div class="amount">
+						<span style="font-weight: 600" class="newPrice">400,00</span> С
+					</div>
+				</div>
+				<div class="footer">
+					<div style="display: flex; align-items: end; justify-content: end">
+						<img
+							class="imgCl"
+							data-initial-opacity=""
+							src="./img/Снимок экрана 2024-06-20 в 11.45.38.png"
+						/>
+					</div>
+					<div class="footerText" style="margin-bottom: 17px; margin-top: 10px">
+						Квитанция №P0812322343636
+					</div>
+					<div class="footerText" style="margin-bottom: 10px">
+						По вопросам зачисления обратитесь к отправителю
+					</div>
+					<div class="footerText">
+						Телефон службы поддержки <span style="color: #008678">3333</span>
+					</div>
+					<div class="stamp"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
