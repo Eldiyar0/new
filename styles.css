@@ -24,6 +24,37 @@ body {
 	margin: 0 auto;
 	margin-top: -1pc;
 }
+
+.details {
+	display: flex;
+	flex-direction: column;
+}
+
+.details .first {
+	display: flex;
+}
+
+.details .first .value {
+	margin-left: 73px;
+}
+
+.details .Gen,
+.total .Gen {
+	display: flex;
+}
+
+.details .Gen .value {
+	margin-left: 7pc;
+}
+
+.details .Det {
+	display: flex;
+}
+
+.details .Det .valueNum {
+	margin-left: 45px;
+}
+
 .details,
 .total {
 	margin-bottom: 20px;
@@ -39,6 +70,11 @@ body {
 .details .value,
 .total .value {
 	font-size: 1.2em;
+}
+.details .valueNum,
+.total .valueNum {
+	font-size: 0.7em;
+	margin-left: 150px;
 }
 .total {
 	text-align: center;
